@@ -1,6 +1,7 @@
 """ This file renders the dropdown that allows the user to decide which months
     to use to calculate the averages that are depicted in the averages tab of
-    the dashboard """
+    the dashboard and updates months dropdown if the user clicks the "Select
+    All" button. """
 
 from dash import Dash, html, dcc
 from dash.dependencies import Input, Output

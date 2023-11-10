@@ -1,5 +1,6 @@
 """ This file renders the table that is depicted in the main tab of the
-    dashboard """
+    dashboard and updates that table based on the user's selections in the
+    dropdowns. """
 
 from dash import Dash, dash_table
 from dash.dependencies import Input, Output

@@ -1,6 +1,6 @@
 """ This file renders the dropdown that allows the user to decide whether to
-    group the data, which will be used to calculate the averages that are
-    depicted in the averages tab of the dashboard, by facilities or offices. """
+    group the data that will be used in the averages tab of the dashboard 
+    by facilities or offices. """
 
 from dash import Dash, html, dcc
 from dash.dependencies import Input, Output

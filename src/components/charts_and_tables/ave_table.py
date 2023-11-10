@@ -1,5 +1,5 @@
 """ This file renders the table that is depicted in the averages tab of the
-    dashboard """
+    dashboard based on the user's selections in the dropdowns on that tab. """
 
 from dash import Dash, html, dash_table
 from dash.dependencies import Input, Output

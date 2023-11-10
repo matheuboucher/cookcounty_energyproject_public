@@ -1,5 +1,6 @@
 """ This file renders the chart that is depicted in the main tab of the
-    dashboard """
+    dashboard and updates that chart based on the user's selections in the
+    dropdowns. """
 
 from dash import Dash, dcc
 from dash.dependencies import Input, Output
